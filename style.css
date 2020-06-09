@@ -7,3 +7,23 @@
 sans-serif;
 font-family: Lora,
 serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+
+/*facilities*/
+#facilities{
+    color: #55A8AE;
+    font-family: Ubuntu, sans-serif;
+}
+
+#facilities_description{
+    background-image: url(Resources/beige-concrete-building-3126553.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7%;
+    opacity: 0.8;
+}
+
+
+
