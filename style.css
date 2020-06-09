@@ -3,7 +3,29 @@
 /* All other resources should be downloaded on your own */
 /* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
  */
- /* font-family: Ubuntu,
+/* font-family: Ubuntu,
 sans-serif;
 font-family: Lora,
 serif; */
+body {
+  src: url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap');
+  font-family: Ubuntu, sans-serif;
+  font-family: Lora, serif;
+}
+* {
+  box-sizing: border-box;
+}
+.btn btn-default:active {
+  border-radius: 10px;
+  color: white;
+}
+h1 {
+  font-weight: 700;
+}
+.container {
+  position: relative;
+}
+#explore-text {
+  position: absolute;
+  top: 30;
+}
