@@ -1,9 +1,160 @@
-/* Hex code of color used was  #55A8AE; */
-/* The Logo is hand drawn */
-/* All other resources should be downloaded on your own */
-/* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
- */
- /* font-family: Ubuntu,
-sans-serif;
-font-family: Lora,
-serif; */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* RESERVATION SECTION */
+
+.reservation-section {
+    background: #f1f1f1;
+    /* margin: 2rem;
+     padding: 5rem; */
+
+}
+
+.reservation-section h1 {
+    color: #55A8AE;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.flex-container {
+    display: flex;
+    padding-top: 0;
+    margin-top: 0;
+    padding: 2rem;
+    align-items: center;
+}
+
+.flex-container div {
+    margin: 2rem;
+
+}
+
+.flex-container label {
+    color: #4D4D4D;
+}
+
+.flex-container select {
+    color: #fff;
+    background-color: #55A8AE;
+    border: #fff;
+}
+
+.flex-container input {
+    outline: #4D4D4D;
+    color: #55A8AE;
+
+}
+
+.flex-container input:focus {
+    outline: #4D4D4D;
+    cursor: pointer;
+}
+
+.flex-container button {
+    background: #55A8AE;
+    color: #fff;
+    border: #fff;
+    padding: 1rem;
+}
+
+.beds {
+    width: 500px;
+    height: 300px;
+}
+
+
+@media(max-width:900px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-container div {
+        margin: 0.5rem;
+
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width:600px) {
+    .col img {
+        width: 100px;
+        display: block;
+    }
+}
+
+
+/* ROOM RATES SECTION */
+
+.room-rates-section {
+
+    margin: 2rem;
+    /* padding: 5rem; */
+}
+
+.room-rates-section .first-heading {
+    color: #55A8AE;
+    font-size: 2rem;
+    text-align: center;
+    /* padding: 2rem; */
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+.room-rates-section .first-paragraph {
+    padding: 2rem;
+    padding-top: 1rem;
+    margin-top: 0;
+    padding-bottom: 3rem;
+    font-size: small;
+    text-align: center;
+}
+
+.col img {
+    width: 200px;
+    height: 300px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.col h4 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.col span {
+    margin-top: 0;
+    padding-top: 0;
+    display: inline-block;
+}
+
+.third-p {
+    font-weight: bolder;
+    font-size: smaller;
+    color: coral;
+}
+
+.naira-logo {
+    width: 10px;
+}
