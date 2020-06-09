@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Landing Page</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="bootstrap.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans:400,700" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -95,49 +94,88 @@
 
     <h1 class="text-center font-weight-bold mb-sm-5">FACILITIES</h1>
 <section id="facilities_description" class="container-fluid text-center text-white my-5">
-    <div class="row mb-sm-5">
+    <div class="row">
         <div class="col-4">
-            <img src="Resources/movie cinema TV watch relax.png" alt="movies" class="img-fluid">
+            <img src="Resources/cocktail 1.png" alt="movies" class="img-fluid">
+        </div>
+        <div class="col-4">
+            <img src="Resources/tray.png" alt="movies" class="img-fluid">
+        </div>
+        <div class="col-4">
+            <img src="Resources/Pool.png" alt="movies" class="img-fluid">
+        </div>
+    </div><div class="row mb-sm-5">
+        <div class="col-4">
             <p>Bar</p>
         </div>
         <div class="col-4">
-            <img src="Resources/movie cinema TV watch relax.png" alt="movies" class="img-fluid">
             <p>Restaurants</p>
         </div>
         <div class="col-4">
-            <img src="Resources/movie cinema TV watch relax.png" alt="movies" class="img-fluid">
             <p>Pool</p>
         </div>
     </div>
     <div class="row">
         <div class="col-4">
-            <img src="Resources/movie cinema TV watch relax.png" alt="movies" class="img-fluid">
-            <p>Spa/Wellness</p>
+            <img src="Resources/spa.png" alt="movies" class="img-fluid">
         </div>
         <div class="col-4">
             <img src="Resources/movie cinema TV watch relax.png" alt="movies" class="img-fluid">
-            <p>Cinema</p>
         </div>
         <div class="col-4">
-            <img src="Resources/movie cinema TV watch relax.png" alt="movies" class="img-fluid">
-            <p>Wi-Fi</p>
+            <img src="Resources/Wifi.png" alt="movies" class="img-fluid">
         </div>
     </div>
+</div><div class="row">
+    <div class="col-4">
+        <p>Spa/Wellness</p>
+    </div>
+    <div class="col-4">
+        <p>Cinema</p>
+    </div>
+    <div class="col-4">
+        <p>Wi-Fi</p>
+    </div>
+</div>
 </section>
 </section>
 
 <!-- TESTIMONIALS SECTION -->
-<section>
+<section id="testimonial">
+    <h1 class="text-center font-weight-bold mb-sm-5" id="testimonial_heading">TESTIMONIAL</h1>
 
-    <h1>TESTIMONIAL</h1>
-    <img src="" alt="">
-    <p>T Hotel is a home away from home, it has a serene
-        environment, 24 hours power supply, free Wi-fi and 
-        the Facilities are top-notch
-    </p>
+    <div id="myCarousel" class="carousel slide text-center container" data-ride="carousel">
 
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">		
+            <div class="item carousel-item active">
+                <div class="img-box img-fluid"><img src="Resources/avatar2.jpg" alt=""></div>
+                <p class="testimonial">T Hotel is a home away from home, it has a serene
+                    environment, 24 hours power supply, free Wi-fi and 
+                    the Facilities are top-notch
+                </p>
+                <p class="overview"><em>Michael Holz, <b>Traveller</b></em></p>
+            </div>
+            <div class="item carousel-item">
+                <div class="img-box"><img src="Resources/avatar2.jpg" alt=""></div>
+                <p class="testimonial">T Hotel is a home away from home, it has a serene
+                    environment, 24 hours power supply, free Wi-fi and 
+                    the Facilities are top-notch
+                </p>
+                <p class="overview"><em>Antonio Moreno, <b>Traveller</b></em></p>
+
+            </div>		
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+        </a>
+        <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+        </a>
+    </div>
+    </section>
 </section>
-
 
 <!-- CONTACT US SECTION -->
 
@@ -157,7 +195,7 @@
         <li>No 11, Somaria Ama, Portharcourt, Rivers State, Nigeria</li>
         <li>+23400000000</li>
         <li>innocenttamunosiki@gmail.com</li>
-    </ul>
+    </ul></h2>
 
     <ul>
         <li><h1>Customer care</h1></li>
@@ -175,7 +213,5 @@
     <li>Cinema</li>
     </ul>
 </section>
-<script src="bootstrap.bundle.js"></script>
-<script src="jquery-3.5.1.js"></script>
 </body>
 </html>
