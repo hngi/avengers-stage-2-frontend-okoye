@@ -1,9 +1,77 @@
 /* Hex code of color used was  #55A8AE; */
 /* The Logo is hand drawn */
 /* All other resources should be downloaded on your own */
-/* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
- */
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+
  /* font-family: Ubuntu,
 sans-serif;
 font-family: Lora,
 serif; */
+
+
+
+
+#page {
+	background-color: #f6f5f7;
+	height: 200px;
+	padding: 5px;
+	
+}
+
+
+.size {
+	font-size: 2.2em;
+	text-align: center;
+
+}
+h1.size{
+	color: #55A8AE;
+	letter-spacing: 2px;
+	font-family: 
+}
+
+form {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+label, input {
+  display: block;
+}
+
+#but {
+	background-color: #55A8AE;
+	border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+}
+
+.cin {
+	border: none;
+	padding: 1px;
+    text-align: center;
+}
+  
+    /*-- PRICING SECTION --*/
+.pos {
+	font-size: 12px;
+	text-align: center;
+}
+
+.move {
+	display: inline-block;
+	padding: 40px;
+	
+}
+.shift {
+	align-items: center;
+}
+div.move span{
+	font-size: 15px;
+	font-family:Lora; 
+}
+
+
