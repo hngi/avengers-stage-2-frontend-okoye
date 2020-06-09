@@ -1,0 +1,94 @@
+/* Hex code of color used was  #55A8AE; */
+/* The Logo is hand drawn */
+/* All other resources should be downloaded on your own */
+/* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+ */
+ /* font-family: Ubuntu,
+sans-serif;
+font-family: Lora,
+serif; */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #55A8AE;
+  text-align: center;
+}
+
+p{
+ text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;  
+	padding: 0;
+	overflow: hidden;
+	background-color: #55A8AE; 
+}
+
+li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.caption {
+  font-size: 14px;
+  font-weight: 600;
+  padding:14px 40px;
+  border: 1px solid #55A8AE;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+div.gallery {
+    float: left;
+    width: 180px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+article {
+    padding: 1em;
+    overflow: hidden;
+}
+
+div.Rate {
+    float: center;
+    width: 180px;
+}
+
+div.Map {
+    float: center;
+    width: 180px;
+}
+
+input {
+    float: left;
+    width: 180px;
+}
+
+div.input img {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+footer { 
+  display: block;
+  background: #55A8AE;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  float: center;
+  overflow: hidden;
+  padding-right: 0;
+  padding-left: 0; 
+}
+
