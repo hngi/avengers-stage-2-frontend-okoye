@@ -7,3 +7,4 @@
 
 -  [@Arndy345](https://github.com/Arndy345)
 
+- [@nonseodion](https://github.com/nonseodion)

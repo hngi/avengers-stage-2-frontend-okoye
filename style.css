@@ -1,233 +1,224 @@
+/* Hex code of color used was  #55A8AE; */
+/* The Logo is hand drawn */
+/* All other resources should be downloaded on your own */
+/* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+ */
+ /* font-family: Ubuntu,
+sans-serif;
+font-family: Lora,
+serif; */
 
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
 * {box-sizing: border-box}
 body{
-  font-family: Ubuntu, sans-serif;
-  font-family: Lora, serif;
+  font-family: Ubuntu, sans-serif !important;
   margin: 0;
 }
+
 
 .container, .row{
-  margin: 0;
-}
-.logo{
-  margin-left: 5px;
-}
-
-header {
-  background: #55A8AE;
-  color: white;
-  padding: 10px 0;
-}
-
-header ul{
-  list-style: none;
-}
-header li{
-  display: inline-block;
-  margin-right: 15px;
-}
-header .menu-icon{
-  display: none;
-} 
-
-.mySlides {
-  display: none;
-  position: relative;
-  background-image: url("Resources/unsplash-bed1.png");
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.header{
-  text-align: center;
-}
-
-/* Slideshow container */
-.slideshow-container {
-  width: 100%;
-  position: relative;
-  margin: auto;
-}
-
-.anchor{
-  text-decoration: none;
-  color: white;
-}
-.anchor:hover{
-  text-decoration: none;
-  color: white;
-}
-.button:hover{
-  background-color: rgba(0,0,0,0.8);
-
-}
-/* Caption text */
-.text {
-  color: white;
-  font-size: 25px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 50%;
-  width: 100%;
-  text-align: center;
-}
-.button{
-  position: absolute;
-  bottom: 25%;
-  left: 45%;
-  border-radius: 15px;
-  border: 0px;
-  border-color: rgb(121, 163, 160);
-  width: 110px;
-  height: 40px;
-  background-color: rgb(121, 163, 160);
-}
-
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: rgb(250, 252, 252);
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-.icon{
-  position: absolute; 
-  bottom: 10%;
-  left: 46%;
-}
-.active {
-  background-color: #717171;
-}
-.dot:hover{
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Fading animation */
-.fades {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 460px) {
-  .button{height: 30px; width: 80px}
-  h1{ font-size: 20px; }
-  a{font-size: 10px;}
-  .icon{left: 42%;}
-  .mySlides{ height: 250px; }
-  .button{left: 45%;}
-}
-
-.footer{
-  background:#55A8AE;
-  color: white;
-  padding: 50px 0;
-}
-.footer ul{
-  list-style: none;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-.footer ul li h1{
-  font-weight: bolder;
-}
-.footer ul li{
-  line-height: 2em;
-}
-.footer .book_now .fa{
-  margin-right: 15px;
-}
-.footer .book_now img{
-  margin-bottom: 10px;
-}
-
-@media only screen and (max-width: 780px) {
-  .drop-down{
-    position: relative;
-    display: block;
-  }
-  .drop-content {
-    display: none;
-    position: absolute;
-    width: 150px;
-    z-index: 1;
-    right: 0;
-    top: 0;
-    word-spacing: 0;
-    background: white;
-  }
-  .drop-content li{
-    padding: 0;
-    margin: 0;
-  }
-  ul.nav li{
-    margin: 0px;
-    padding: 20px;
-    color: #55A8AE;
-  }
-  header .menu-icon {
-    display: inline-block;
-  }
-  .drop-down:hover .drop-content {
-    display: block;
-  }
-  .footer{
-    padding-top: 30px;
-  }
-
-/* Hex code of color used was  #55A8AE; */
-/* The Logo is hand drawn */
-/* All other resources should be downloaded on your own */
-
-/*@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
-font-family: Ubuntu, sans-serif;
-font-family: Lora, serif; */
-
-*{
 	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+  }
+  .logo{
+	margin-left: 5px;
+  }
+  
+  header {
+	background: #55A8AE;
+	color: white;
+	padding: 10px 0;
+  }
+  
+  header ul{
+	list-style: none;
+  }
+  header li{
+	display: inline-block;
+	margin-right: 15px;
+  }
+  header .menu-icon{
+	display: none;
+  } 
+  
+  .mySlides {
+	display: none;
+	position: relative;
+	background-image: url("Resources/unsplash-bed1.png");
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  .header{
+	text-align: center;
+  }
+  
+  .footer{
+	background:#55A8AE;
+	color: white;
+	padding: 50px 0;
+  }
+  .footer ul{
+	list-style: none;
+	margin-right: 10px;
+	margin-left: 10px;
+  }
+  .footer ul li h1{
+	font-weight: bolder;
+  }
+  .footer ul li{
+	line-height: 2em;
+  }
+  .footer .book_now .fa{
+	margin-right: 15px;
+  }
+  .footer .book_now img{
+	margin-bottom: 10px;
+  }
+  
+  @media only screen and (max-width: 780px) {
+	.drop-down{
+	  position: relative;
+	  display: block;
+	}
+	.drop-content {
+	  display: none;
+	  position: absolute;
+	  width: 150px;
+	  z-index: 1;
+	  right: 0;
+	  top: 0;
+	  word-spacing: 0;
+	  background: white;
+	}
+	.drop-content li{
+	  padding: 0;
+	  margin: 0;
+	}
+	ul.nav li{
+	  margin: 0px;
+	  padding: 20px;
+	  color: #55A8AE;
+	}
+	header .menu-icon {
+	  display: inline-block;
+	}
+	.drop-down:hover .drop-content {
+	  display: block;
+	}
+	.footer{
+	  padding-top: 30px;
+	}
+  
+  }
 
-body {
-	font-family: Montserrat;
-	background-color: white;
-	color: #55A8AE;
-}
 
-/* Utility classes */
-section{
-	padding: 2rem 0;
-}
+/*Hero's Carousel*/
+.mySlides {
+	display: none;
+	position: relative;
+	background-image: url("Resources/unsplash-bed1.png");
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  
+  
+  /* Slideshow container */
+  .slideshow-container {
+	width: 100%;
+	position: relative;
+	margin: auto;
+  }
+  
+  .anchor{
+	text-decoration: none;
+	color: white;
+  }
+  .anchor:hover{
+	text-decoration: none;
+	color: white;
+  }
+  .button:hover{
+	background-color: rgba(0,0,0,0.8);
+  
+  }
+  /* Caption text */
+  .text {
+	color: white;
+	font-size: 25px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 50%;
+	width: 100%;
+	text-align: center;
+  }
+  .slideshow-container .button{
+	position: absolute;
+	bottom: 25%;
+	left: 45%;
+	border-radius: 15px;
+	border: 0px;
+	border-color: rgb(121, 163, 160);
+	width: 110px;
+	height: 40px;
+	background-color: rgb(121, 163, 160);
+  }
+  
+  
+  /* The dots/bullets/indicators */
+  .dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: rgb(250, 252, 252);
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  .icon{
+	position: absolute; 
+	bottom: 10%;
+	left: 46%;
+  }
+  .dot:hover{
+	background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Fading animation */
+  .fades {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 460px) {
+	.button{height: 30px; width: 80px}
+	h1{ font-size: 20px; }
+	a{font-size: 10px;}
+	.icon{left: 42%;}
+	.mySlides{ height: 250px; }
+	.button{left: 45%;}
+  }
 
-.container{
-	max-width: 1180px;
-	margin: 0 auto;
-}
-
+/*Pricing and Reservation*/
 .lead_text{
 	color: #55A8AE;
 	font-weight: bold;
-	font-family: Montserrat;
 	padding: 1rem 0;
  
 }
@@ -237,6 +228,7 @@ section{
 .reservation{
 	background-color: #f5f5f5;
 	padding-bottom: 5rem;
+	font-family: Ubuntu, sans-serif;
 }
 
 .reservation .button{
@@ -253,6 +245,7 @@ section{
 
 #room_section{
 	position: relative;
+	font-family: Ubuntu, sans-serif;
 }
 
 .room_head p{
@@ -293,122 +286,148 @@ section{
 
 .myform2 label{
 	font-weight: bold;
-
-/* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
- */
- /* font-family: Ubuntu,
-sans-serif;
-font-family: Lora,
-serif; */
-@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
-
-body{
-  font-family: Ubuntu, sans-serif;
-  font-family: Lora, serif;
-  margin: 0;
 }
 
-.container, .row{
-  margin: 0;
-}
-.logo{
-  margin-left: 5px;
-}
-
-header {
-  background: #55A8AE;
-  color: white;
-  padding: 10px 0;
-}
-
-header ul{
-  list-style: none;
-}
-header li{
-  display: inline-block;
-  margin-right: 15px;
-}
-header .menu-icon{
-  display: none;
-} 
-
-.banner{
-  text-align: center;
-  padding: 170px 0;
-  color: white;
-}
-.banner button{
-  border: 1px solid;
-  background: #55A8AE;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 15px;
-}
-.banner{
-  background: url("Resources/unsplash-bed1.png");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   
-}
-
-.footer{
-  background:#55A8AE;
-  color: white;
-  padding: 50px 0;
-}
-.footer ul{
-  list-style: none;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-.footer ul li h1{
-  font-weight: bolder;
-}
-.footer ul li{
-  line-height: 2em;
-}
-.footer .book_now .fa{
-  margin-right: 15px;
-}
-.footer .book_now img{
-  margin-bottom: 10px;
-}
-
-@media only screen and (max-width: 780px) {
-  .drop-down{
-    position: relative;
-    display: block;
-  }
-  .drop-content {
-    display: none;
-    position: absolute;
-    width: 150px;
-    z-index: 1;
-    right: 0;
-    top: 0;
-    word-spacing: 0;
-    background: white;
-  }
-  .drop-content li{
-    padding: 0;
-    margin: 0;
-  }
-  ul.nav li{
-    margin: 0px;
-    padding: 20px;
+/*facilities*/
+#facilities, #testimonial_heading, #contact_heading{
     color: #55A8AE;
-  }
-  header .menu-icon {
-    display: inline-block;
-  }
-  .drop-down:hover .drop-content {
-    display: block;
-  }
-  .footer{
-    padding-top: 30px;
-  }
-
-
+	font-family: Ubuntu, sans-serif;
+	
 }
+
+
+#facilities_description{
+    background-image: url(Resources/beige-concrete-building-3126553.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7%;
+    opacity: 0.8;
+}
+
+#facilities_description p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.carousel {
+	width: 650px;
+	margin: 0 auto;
+}
+.carousel .item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 340px;
+}
+.carousel .item a {
+	color: #eb7245;
+}
+.carousel .img-box {
+	width: 145px;
+	height: 145px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {	
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	text-align: center;
+	padding-bottom: 5px;
+}
+.carousel .overview b {
+	color: #333;
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+.carousel .star-rating i {
+	font-size: 18px;
+	color: #ffdc12;
+}
+.carousel .carousel-control {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+    background: #999;
+    text-shadow: none;
+	top: 4px;
+}
+.carousel-control i {
+	font-size: 20px;
+	margin-right: 2px;
+}
+.carousel-control.left {
+	left: auto;
+	right: 40px;
+}
+.carousel-control.right i {
+	margin-right: -2px;
+}
+.carousel .carousel-indicators {
+	bottom: 15px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 11px;
+	height: 11px;
+	margin: 1px 5px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #e2e2e2;
+	border-color: transparent;
+}
+.carousel-indicators li.active {
+	border: none;
+	background: #888;		
+}
+
+/*Contact Us Section*/
+#contact_us{
+	padding: 0 5% 5% 5%;
+	background-color:#e5e7e9;
+}
+#contact_us .row #map{
+	background-image: url(Resources/map.png);
+}
+#contact_us .row .col-md-6{
+	padding: 0;
+}
+#contact_us #contact_heading{
+	margin-bottom: 0;
+}
+#contact_us form{
+	padding: 5% 10%;
+	background-color: #55A8AE;
+}
+
+#contact_us form *{
+	width: 100%;
+	margin-bottom: 4%;
+	height: 70px;
+	padding: 10px;
+}
+#contact_us form textarea{
+	height: 100px;
+}
+
+@media only screen and (max-width: 576px){
+	#contact_us{
+		padding: 0 0 10% 0;
+	}
+	#contact_us .row{
+		margin: 0;
+	}
+	#contact_us #map{
+		margin-top: 0;
+	}
+}
+
