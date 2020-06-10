@@ -7,3 +7,184 @@
 sans-serif;
 font-family: Lora,
 serif; */
+.reservationbox{
+    background-color: #f1f1f1;
+}
+.reservation{
+    color: #55a8ae;
+    text-align:center;
+    font-family: 'Lora', serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bolder;
+    
+    padding-top:40px;
+}
+
+label{
+    font-weight:bold;
+}
+
+.checkinrow{
+    margin-top:20px;
+    padding-bottom:60px;
+}
+
+.roomandrates{
+    color: #55a8ae;
+    text-align:center;
+    font-family: 'Lora', serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bolder;
+}
+
+.facilities{
+    color: #55a8ae;
+    text-align:center;
+    margin-top:30px;
+    font-family: 'Lora', serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bolder;
+}
+
+.roomandratesbox{
+    margin-top:100px;
+}
+
+.roomandratessubtext{
+    text-align:center;
+    margin-top:50px;
+    font-family: 'Lora', serif;
+font-family: 'Ubuntu', sans-serif;
+font-size:20px;
+}
+
+.bedspacebox{
+    margin-top:100px;
+}
+.bedspace{
+    margin-top:20px;
+    font-family: 'Lora', serif;
+font-family: 'Ubuntu', sans-serif;
+font-size:20px;
+}
+
+.checkdetails{
+    font-family: 'Lora', serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top:-16px;
+}
+
+.price{
+    margin-top:-16px;
+}
+
+.rightarrow{
+    margin-left:15px;
+}
+
+.arrows{
+    float:right;
+}
+
+.form-control{
+    width:160px!important;
+}
+
+.little{
+    width:100px!important;
+}
+
+
+
+
+.box0 {
+    margin: 5px;
+    padding: 10px;
+    width:20%
+  }
+
+  
+.box1 {
+    margin: 5px;
+    padding: 10px;
+  }
+
+  .box2 {
+  
+    margin: 5px;
+    padding: 10px;
+
+  }
+
+  .box3 {
+  
+    margin: 5px;
+    padding: 10px;
+
+  }
+
+  .box4 {
+  
+    margin: 5px;
+    padding: 10px;
+
+  }
+
+  .box5 {
+  
+  margin-top:42px;
+  margin-left:30px;
+
+  }
+
+  .flex-container {
+    display: flex;
+  }
+
+  .checkbutton{
+     border-radius:0px!important;
+  }
+
+  .responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .roomandrates{
+        font-size:20px;
+    }
+
+    .reservation{
+        font-size:20px;
+    }
+
+    .facilities{
+        font-size:20px;
+    }
+
+    .box0{
+        width:100%
+    }
+
+    .box1{
+        width:100%
+    }
+
+    .flex-container {
+        flex-direction:column;
+      }
+
+  .forminput{
+    text-align:center;
+  }
+
+      /* .labeltitle{
+          text-align:center;
+      }
+
+      .labelinput{
+          text-align:center!important;
+      } */
+    }
