@@ -3,5 +3,10 @@
 
 -  [@ifatoki](https://github.com/ifatoki)
 
+- [@Praizerema]
 
-- Praizerema
+- [@DjangoGirl]
+
+- [@Neutrino]
+
+- [@Oluwaloni R]
