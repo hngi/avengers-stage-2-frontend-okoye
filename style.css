@@ -1,8 +1,93 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: 20% auto 20%;
+    background: #F1F2F2;
+      grid-template-areas: 
+            " .  . contact-title ."
+            " . contact-img contact-form ."
+            " . . . ."
+        ;
+}
+
+@media (max-width: 1200px) {
+        .contact-container {
+                 grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-gap: 10px;
+        grid-template-areas: 
+            "contact-title contact-title"
+            "contact-img contact-form";
+        }
+}
+
+@media (max-width: 810px) {
+    .contact-container {
+        
+    }
+    .contact-title {
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 786px) {
+    .contact-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+        grid-template-areas: 
+            " contact-title contact-title"
+            " contact-img contact-img"
+            " contact-form contact-form";
+        }
+    .contact-title {
+        font-size: 2em;
+        margin: auto;
+    }
+}
+
+
+.contact-title {
+    grid-area: contact-title;
+    font-size: 3.5em;
+    color: #55A8AE;
+    font-family: Montserrat,sans-serif;
+}
+
+.google-img {
+    grid-area: contact-img;
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-area: contact-form;
+    background: #55A8AE;
+    padding: 2.5rem 0.625rem;
+}
+    
+input[type=text], button {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
 /* Hex code of color used was  #55A8AE; */
 /* The Logo is hand drawn */
 /* All other resources should be downloaded on your own */
-/* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
- */
+ 
  /* font-family: Ubuntu,
 sans-serif;
 font-family: Lora,
