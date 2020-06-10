@@ -1,0 +1,268 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<nav class="navbar">
+<a href="" target='_blank'><img class="header-img" src="logo.png" border="0" alt="hotel-logo"/></a>
+
+<label for="toggle">&#9776;</label>
+<input type="checkbox" id="toggle" />
+
+<div class="menu">
+ <a href="#">Home</a>
+ <a href="#">Rooms and Rates</a>
+ <a href="#">Facilities</a>
+ <a href="#">Contact Us</a>
+ <a href="#">Gallery</a>
+</div>
+
+</nav>
+
+<!--styling-->
+<style>
+#toggle {
+	display: none;
+}
+
+label {
+margin: 0 40px 0 0;
+font-size: 26px;
+line-height: 70px;
+color: #ffffff;
+display: none;
+width: 26px;
+float: right;
+}
+
+.header-img {
+     width: 60%;
+     height: 10%;
+     float: left;
+}
+
+
+.navbar  {
+ font-family: arial;
+ background: #40acc2;
+ text-align: right;
+ top: 0;
+ width: 100%;
+ height: auto;
+ margin-bottom: 20px;
+ font-size: 20px;
+ list-style-type: none;
+ margin-right: 20px;
+ 
+}
+
+
+
+.menu a {
+  clear: right;
+  text-decoration: none;
+  color: #fcfbfa;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 7px 10px;
+}
+
+a:hover {
+	border: solid 2px white;
+	transition: .5s;
+}
+
+#foot {
+ background-color: #40acc2;
+ color: #ffffff;
+ height: 400px;
+ width: 100%;
+}
+
+.foot-main {
+	margin: 0 auto;
+	width: 100%;
+	float: right;
+}
+
+.foot-nav {
+ display: inline-grid;
+ margin: 42px;
+ width: 21%;
+}
+
+#foot h3 {
+  font-size: 30px;
+}
+
+#foot p {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.foot-nav p a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-img {
+	 width: 10%;
+     float: left;
+     display: inline-block;
+}
+
+.profile-link {
+font-size: 25px;
+color: white;
+padding: 20px;
+}
+
+.socials {
+ display: inline-block;
+}
+
+.word-icon {
+ margin-left: 8px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+.header-img {
+     width: 50%;
+     float: left;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+.menu {
+	text-align: center;
+	width: 100%;
+  display: none;
+}
+
+.menu a {
+   display: block;
+   border-bottom: 1px solid white;
+   margin: 0;
+}
+
+#toggle:checked + .menu {
+	display: block;
+}
+
+.foot-main{
+ display: inline;
+ margin: 0 auto;
+ text-align: center;
+ width: 100%;
+}
+
+.foot-nav {
+  margin: 42px;
+  display: inline;
+  color: white;
+}
+
+.foot-nav p a {
+	color: white;
+  text-decoration: none;
+}
+
+#foot {
+    background-color: #40acc2;
+    color: #ffffff;
+    height: 1000px;
+    width: 100%;
+ }
+
+ .footer-img{
+ 	display: none;
+ }
+
+}
+
+</style>
+
+
+</head>
+<body>
+
+<br><br><br><br><!--did this to seperate the header and footer
+
+<!--footer-->
+<section id="foot" >
+<div class="foot-main">
+<a href="" target='_blank'><img class="footer-img" src="logo.png" border="0" alt="hotel-logo"/></a>
+
+<div class="foot-nav">
+<h3>Book Now</h3>
+<p><i class="fa fa-map-marker" aria-hidden="true"></i><span class="word-icon">NO 11 Somiari Ama Port Harcourt Rivers State, Nigeria</span></p>
+
+<p><i class="fa fa-volume-control-phone" aria-hidden="true"></i><span class="word-icon">+124864128836</span></p>
+
+<p><i class="fa fa-envelope-o" aria-hidden="true"></i><span class="word-icon">innocenttamunos@gmail.com</span></p>
+
+<div class="socials">
+<span><a class="profile-link" href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+<span><a class="profile-link" href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+<a class="profile-link" href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+<a class="profile-link" href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+</div>
+
+</div>
+
+
+ <div class="foot-nav">
+ <h3>Customer Care</h3>
+ 
+ <p><a href="#">Contact Us</a></p>
+
+ <p><a href="#">Room and Rates</a></p>
+
+ <p><a href="#">Facilities</a></p>
+
+ <p><a href="#">Reservation</a></p>
+
+ </div>
+
+ <div class="foot-nav">
+<h3>Facilities</h3>
+
+<p><a href="#">Spa and Gym</a></p>
+
+<p><a href="#">Resturant</a></p>
+
+<p><a href="#">Bar</a></p>
+
+<p><a href="#">Cinema</a></p>
+ </div>
+
+
+</div>
+
+  
+</section>
+
+
+
+
+<script>
+
+</script>
+
+</body>
+</html>
