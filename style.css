@@ -7,3 +7,78 @@
 sans-serif;
 font-family: Lora,
 serif; */
+
+    /*General*/
+    @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Ubuntu, sans-serif, Lora, serif;
+    }
+    
+    /*Facilities section*/
+    .head-1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 65px;
+        line-height: 79px;
+    }
+    .head-3{
+        font-size: 18px;
+    }
+    .head-2{
+        font-size: 15px;
+    }
+    .text-color{
+        color: #55A8AE;
+    }
+    .sect-padd{
+        padding: 50px 0;
+    }
+    .facilitate {
+        background:linear-gradient(
+            rgba(85, 168, 174, 0.1),rgba(85, 168, 174, 0.1)), url('/Resources/hotel.png'); 
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        color: #fff; 
+    }
+    .user-img{
+        border-radius: 50%;
+        margin: auto;
+        display: block;
+    }
+    .user-text{    
+        display: block;
+        margin: auto;
+        width: 50%;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        filter: invert(1);
+    }
+    .backdrop {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    @media (max-width: 491px){
+        .head-1{
+            font-size: 45px !important;
+        }
+        .user-text{
+            width: 70%;
+        }
+        .img-fluid {
+            max-width: 50%;
+        }
+    }
+    @media (max-width: 320px){
+        .head-1{
+            font-size: 35px !important;
+        }
+    }
