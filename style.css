@@ -1,73 +1,6 @@
-
-
-
-body {
-  font-family: Ubuntu, sans-serif, Lora, serif;
-}
 * {
-  box-sizing: border-box;
-}
-h1 {
-  font-weight: 700;
-}
-.container {
-  position: relative;
-}
-.item-wrapper {
-  position: relative;
-  width: 100%;
-}
-.cover-wrapper {
-  z-index: 1;
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.253);
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
-.explore-text {
-  position: absolute;
-  top: 192px;
-  right: 14%;
-  text-align: center;
-  justify-content: center;
-}
-.explore-text h1 {
-  font-size: 71px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.788);
-}
-.button {
-  background-color: #55a8ae;
-  color: white;
-  border-radius: 15px;
-  width: 116px;
-  font-size: 16px;
-  font-weight: bolder;
-  border: none;
-  height: 40px;
-}
-.slide-wrapper {
-  position: relative;
-  padding-left: 0;
-  padding-right: 0;
-}
-.span-div li {
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  margin-bottom: 68px;
-  background-color: rgba(255, 255, 255, 0.158);
-  border: 2px solid black;
-}
-.span-div li:active {
-  background-color: black;
-  border: 2px solid rgba(255, 255, 255, 0.158);
-}
-
-
-
-*{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -332,188 +265,285 @@ img:hover {
 
 .naira-logo {
     width: 10px;
-
 }
 
 
-/* END OF ROOM RATES SECTION */
+/* CAROUSEL */
 
+.carousel-h1 {
+    font-weight: 700;
+}
 
-    /* Hex code of color used was  #55A8AE; */
-    /* The Logo is hand drawn */
-    /* All other resources should be downloaded on your own */
-    /* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
- */
+.container {
+    position: relative;
+}
 
- /*font-family: Ubuntu,
-sans-serif;
-font-family: Lora,
-serif; */
+.item-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.cover-wrapper {
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.253);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.explore-text {
+    position: absolute;
+    top: 192px;
+    right: 14%;
+    text-align: center;
+    justify-content: center;
+}
+
+.explore-text h1 {
+    font-size: 71px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.788);
+}
+
+.button {
+    background-color: #55a8ae;
+    color: white;
+    border-radius: 15px;
+    width: 116px;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    height: 40px;
+}
+
+.slide-wrapper {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.span-div li {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-bottom: 68px;
+    background-color: rgba(255, 255, 255, 0.158);
+    border: 2px solid black;
+}
+
+.span-div li:active {
+    background-color: black;
+    border: 2px solid rgba(255, 255, 255, 0.158);
+}
+
 
 /* CONTACT PAGE STYLES */
-.contact{
-  font-family: Lora, serif; 
-  background: #f0f0f0;
-}
+
 
 .contact-wrapper {
-  margin: 30px 50px;
+    margin: 30px 50px;
 }
 
 .contact-image {
-  width: 100%;
+    width: 100%;
 }
 
 #contact {
-  color: #55A8AE;
-}
-
-.contact-left {
-  background: #55A8AE;
-}
-
-.contact-btn {
-  background: white;
-}
-
-    /* font-family: Ubuntu,
-sans-serif;
-font-family: Lora,
-serif; */
-    
-    * {
-        margin: 0;
-        padding: 0;
-        /* font-family: Ubuntu, sans-serif; */
-        font-family: Lora, serif;
-    }
-    /* start of navbar and footer */
-    
-    nav {
-        background-color: #55A8AE;
-    }
-    
-    img {
-        height: 60px;
-        width: 60px;
-        margin-left: 2em;
-    }
-    
-    #header-ul {
-        margin-left: 23em;
-    }
-    
-    #header-li>a {
-        font-size: 24px;
-    }
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-/* OFFER SECTION*/
-
-.facility {
-    width: 100%;
-    overflow: hidden;
-
-    color: #fff;
-}
-
-.facility h1 {
-    font-size: 45px;
-    padding: 20px;
-    text-align: center;
     color: #55A8AE;
 }
 
-.facBg {
-    background: url(./Resources/beige-concrete-building-3126553\ 1.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.contact-left {
+    background: #55A8AE;
 }
 
-.facContent {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 65px;
+.contact-btn {
+    background: white;
+}
+
+/* start of navbar and footer */
+
+nav {
+    background-color: #55A8AE;
+}
+
+.footer-navbar-img {
+    height: 60px;
+    width: 60px;
+    margin-left: 2em;
+}
+
+#header-ul {
+    margin-left: 23em;
+}
+
+#header-li>a {
+    font-size: 24px;
+}
+
+/* footer */
+
+.footer {
+    padding-top: 52px;
+    padding-bottom: 40px;
+    background: #55A8AE;
+}
+
+.col-lg-4 {
+    margin-left: 40px;
+}
+
+.col-lg-2 {
+    margin-top: 68px;
+}
+
+.footer .logo_container {
+    height: auto;
+    margin-bottom: 18px;
+    margin-top: -10px;
+}
+
+.footer .logo {
+    top: auto;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.footer .logo a {
+    color: white;
+}
+
+.footer_title {
+    font-size: 23px;
+    font-weight: 800;
+    color: #FFF;
+}
+
+.tit {
+    margin-left: 1.6em;
+}
+
+.footer_phone {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin-top: 13px;
+}
+
+.footer_contact_text {
+    margin-top: 10px;
+    color: white !important;
+}
+
+.footer_contact_text p {
+    margin-bottom: 0px;
+}
+
+.footer_social {
+    margin-top: 27px;
+}
+
+.footer_social ul li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    /* background: #fff; */
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 16px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 85px 45px;
 }
 
-.bar img {
-    margin-left: 56px;
+.logo img {
+    margin-left: 55px;
 }
 
-.facContentWrapper img {
-    width: 250px;
-    height: 200px;
-    object-fit: contain;
+.footer_social ul li i {
+    color: #eee;
+    line-height: 30px;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
 }
 
-.facContentWrapper p {
-    font-size: 40px;
-}
-/* 
-Media query for offer section */
-
-@media screen and (max-width: 1000px) {
-    .facContent {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .facContentWrapper img {
-        width: 200px;
-        height: 180px;
-        object-fit: contain;
-    }
+.footer_social ul li:hover i {
+    color: #eee;
 }
 
-@media screen and (max-width: 700px) {
-    .facContent {
-        grid-template-columns: 1fr;
+.footer_subtitle {
+    font-size: 12px;
+    color: #ededed;
+}
+
+.footer_column ul:first-of-type {
+    margin-top: 21px;
+}
+
+.footer_column ul {
+    margin-top: 7px;
+    list-style: none;
+}
+
+.footer_list li {
+    margin-bottom: 6px;
+}
+
+.footer_list li a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #eee;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.footer_list li a:hover {
+    color: #ffd700;
+}
+
+.footer_list_2 {
+    margin-top: 42px !important;
+}
+
+/* media query for navbar and footer */
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .footer-navbar-img {
+        margin-left: 0;
     }
 
-    .facility h1 {
-        font-size: 30px;
-        padding: 10px;
+    #header-ul {
+        margin-left: 0;
     }
 
-    .facContentWrapper img {
-        width: 180px;
-        height: 160px;
-        object-fit: contain;
+    #header-li {
+        padding-left: 0;
     }
 
-    .facContentWrapper p {
-        font-size: 30px;
+    #header-li>a {
+        font-size: 18px;
+        text-align: center;
     }
-    .testiHeader {
-        font-size: 30px;
+
+    nav {
+        width: 100%;
+    }
+
+    .col-lg-4 {
+        margin-left: 0px;
+    }
+
+    .col-lg-2 {
+        margin-top: 0px;
+    }
+
+    .tit {
+        margin-left: 0em;
+    }
+
+    .logo img {
+        margin-left: 0px;
     }
 }
 
-
-  
-
-
-   /* TESTIMONEY */
-
-   .testiHeader {
-       color: #55A8AE;
-   }
-
-   .testiName {
-       font-style: italic;
-       font-weight: bold;
-       font-size: 16px;
-   }
-
-
-
+/* end of navbar and footer */
