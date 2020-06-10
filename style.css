@@ -117,7 +117,7 @@ body{
 .mySlides {
 	display: none;
 	position: relative;
-	background-image: url("Resources/6.jpg");
+	background-image: url("Resources/7.jpg");
 	height: 500px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -193,6 +193,9 @@ body{
 	position: absolute; 
 	bottom: 10%;
 	left: 46%;
+  }
+  .active{
+  	background-color: rgba(0,0,0,0.8);
   }
   .dot:hover{
 	background-color: rgba(0,0,0,0.8);
