@@ -24,3 +24,10 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+//Contact Us
+contactFormStyle = window.getComputedStyle(document.getElementById("contact_form"))
+map = document.getElementById("map");
+contact_headingStyle = window.getComputedStyle(document.getElementById("contact_heading"));
+map.style.height = contactFormStyle.height;
+map.style.marginTop = contact_headingStyle.height;
+console.log(contactFormStyle.height, map.style.height, contact_headingStyle.height)
