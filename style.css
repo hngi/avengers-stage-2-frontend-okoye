@@ -111,6 +111,17 @@ body{
 	}
   
   }
+  .nav-bar{
+  	
+  	color: white;
+  }
+  .nav-bar:hover{
+  	text-decoration: none;
+  	color: rgba(0,0,0,0.8);
+  }
+  .nav-bar:active{
+  	color: blue;
+  }
 
 
 /*Hero's Carousel*/
