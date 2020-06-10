@@ -1,3 +1,4 @@
+
 /* Hex code of color used was  #55A8AE; */
 /* The Logo is hand drawn */
 /* All other resources should be downloaded on your own */
@@ -9,6 +10,114 @@ font-family: Lora,
 serif; */
 
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+
+body{
+    font-family: Ubuntu, sans-serif;
+    font-family: Lora, serif;
+    margin: 0;
+  }
+  
+  .container, .row{
+    margin: 0;
+  }
+  .logo{
+    margin-left: 5px;
+  }
+  
+  header {
+    background: #55A8AE;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  header ul{
+    list-style: none;
+  }
+  header li{
+    display: inline-block;
+    margin-right: 15px;
+  }
+  header .menu-icon{
+    display: none;
+  } 
+  
+  .banner{
+    text-align: center;
+    padding: 170px 0;
+    color: white;
+  }
+  .banner button{
+    border: 1px solid;
+    background: #55A8AE;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+  }
+  .banner{
+    background: url("Resources/unsplash-bed1.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  .footer{
+    background:#55A8AE;
+    color: white;
+    padding: 50px 0;
+  }
+  .footer ul{
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .footer ul li h1{
+    font-weight: bolder;
+  }
+  .footer ul li{
+    line-height: 2em;
+  }
+  .footer .book_now .fa{
+    margin-right: 15px;
+  }
+  .footer .book_now img{
+    margin-bottom: 10px;
+  }
+  
+  @media only screen and (max-width: 780px) {
+    .drop-down{
+      position: relative;
+      display: block;
+    }
+    .drop-content {
+      display: none;
+      position: absolute;
+      width: 150px;
+      z-index: 1;
+      right: 0;
+      top: 0;
+      word-spacing: 0;
+      background: white;
+    }
+    .drop-content li{
+      padding: 0;
+      margin: 0;
+    }
+    ul.nav li{
+      margin: 0px;
+      padding: 20px;
+      color: #55A8AE;
+    }
+    header .menu-icon {
+      display: inline-block;
+    }
+    .drop-down:hover .drop-content {
+      display: block;
+    }
+    .footer{
+      padding-top: 30px;
+    }
 
 /*facilities*/
 #facilities, #testimonial_heading{
