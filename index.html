@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="room-and-rates-styles.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <title>Hotel Landing Page</title>
 </head>
 <body>
     <header>
+
         <ul>
             <li>Hotel</li>
             <li>Home</li>
@@ -63,21 +72,50 @@
 
       <!-- PRICING SECTION -->
 
-      <section>
-
-    <h1>ROOMS AND RATES</h1>
-    <p>All rooms are equipped with free Wi-fi, Large Smart Tv,
-        21 international stations and a central air condition.
+    <section id="pricing" class="pricing container-xl">
+<div class=" room-rates-header row"> 
+      <h1 class="col-md-11"> ROOMS AND RATES</h1>
+      <span class="col-md-1">
+          <div class="header-arrow"><img src="Resources/left-arrow.svg"></div>
+          
+          <div class="header-arrow"><img src="Resources/right-arrow.svg"></div>
+          </span>
+    </div>
+ 
+    <p class="room-rates-intro row">All rooms are equipped with Free Wi-Fi, an LED Smart-TV,
+        21 Exciting Channels and Central Air-Conditioning.
     </p>
-     <img src="" alt="">
-    <h6>Deluxe rooms - one king bed</h6>
-    <p>10,000</p>
-    <p>Check Details</p>
 
-     <img src="" alt="">
-    <h6>Standard rooms - one king sized bed</h6>
-    <p>20,000</p>
-    <p>Check Details</p>
+ 
+<div class="room-rates-collection  row">
+    <div class="room-rates-view container col-lg-6" >  
+        <div class="row">
+            <img class="img-fluid rounded " src="./Resources/unsplash-bed1.png" alt="roon view 1">
+        </div>
+        <div class="room-rates-view-text row">
+            <p>Deluxe rooms - one king bed
+                <br><span class="font-weight-bold">$10,000</span>
+                <br><span style="font-size:12px"><a style="text-decoration:none;color:inherit"href="#pricing">Check Details</a> &nbsp; →</span>
+            </p>  
+        </div>  
+          
+        </div>
+     
+   <div class="room-rates-view container col-lg-6"> 
+    <div class="row">
+        <img class="img-fluid rounded" src="./Resources/unsplash-bed2.png" alt="room view 2">
+    </div>   
+    <div class="room-rates-view-text row"> 
+        <p >Standard rooms - one king sized bed
+            <br><span  class="font-weight-bold">$20,000</span>
+            <br><span style="font-size:12px"><a style="text-decoration:none;color:inherit"href="#pricing">Check Details</a> &nbsp; →</span>
+        </p> 
+    </div>
+     
+   </div>
+    </div>
+
+    
 
       </section>
 
