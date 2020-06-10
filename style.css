@@ -117,13 +117,24 @@ body{
 .mySlides {
 	display: none;
 	position: relative;
-	background-image: url("Resources/unsplash-bed1.png");
+	background-image: url("Resources/6.jpg");
 	height: 500px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
   }
-  
+ .myslides2{
+  background-image: url("Resources/unsplash-bed1.png");
+
+}
+.myslides3{
+  background-image: url("Resources/7.jpg");
+
+}
+.myslides4{
+  background-image: url("Resources/unsplash-bed2.png");
+
+}
   
   /* Slideshow container */
   .slideshow-container {
@@ -140,7 +151,7 @@ body{
 	text-decoration: none;
 	color: white;
   }
-  .button:hover{
+  .botton:hover{
 	background-color: rgba(0,0,0,0.8);
   
   }
@@ -154,7 +165,7 @@ body{
 	width: 100%;
 	text-align: center;
   }
-  .slideshow-container .button{
+  .botton{
 	position: absolute;
 	bottom: 25%;
 	left: 45%;
@@ -207,14 +218,16 @@ body{
   
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 460px) {
-	.button{height: 30px; width: 80px}
+	.botton{height: 30px; width: 80px}
 	h1{ font-size: 20px; }
 	a{font-size: 10px;}
 	.icon{left: 42%;}
 	.mySlides{ height: 250px; }
-	.button{left: 45%;}
+	.botton{left: 45%;}
   }
-
+  @media only screen and (max-width: 661px){
+	h1{ font-size: 22px; }
+  }
 /*Pricing and Reservation*/
 .lead_text{
 	color: #55A8AE;
