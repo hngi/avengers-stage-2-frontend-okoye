@@ -7,3 +7,56 @@
 sans-serif;
 font-family: Lora,
 serif; */
+
+body {
+    font-family: Lora, serif;
+}
+
+.contact{
+    text-align: center;
+    margin: 0;
+    box-shadow: 4px 0 4px 0 #e5e5e5;
+    padding: 15px;
+    
+}
+
+.contact-menu{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+.img{
+    height: auto;
+    width: auto;
+}
+.img-div{
+    margin: auto;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.input-class{
+    width: auto;
+    height: auto;
+    background: #55A8AE;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:25% 25% 25% 25%;
+    border-radius: 15px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+.input{
+    margin: 7px;
+    border-radius: 7px;
+}
+.button{
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 50%;
+}
+
+h1 {
+    color: #55A8AE;
+    font-size: 32px;
+}
