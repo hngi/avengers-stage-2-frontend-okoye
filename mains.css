@@ -1,0 +1,138 @@
+html, body{
+    height:10%;
+    padding: 0px;
+    margin: 0px;
+}
+.header  {
+    width: 100%;
+    height:5.8em;
+    display: block;
+    background-color:rgb(35, 149, 153) ;
+}
+.logo-container  {
+    padding-right: 5em;
+    padding-left: 2em;
+    height:100%;
+    display: table;
+    float: left ;
+}
+.navigation  {
+    height:100%;
+    float:left;
+    padding-left: 7em;
+}
+.navigation a {
+    height:100%;
+    display: table;
+    float: left;
+    padding: 0em 1em;
+}
+.navigation li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 1.1em;
+    padding-right: 3em;
+}
+
+
+section  {
+    background-color: white;
+    height: 17em;
+}
+
+.footer {
+    background: rgb(35, 149, 153);
+    color: white;
+    height:20em;
+    position: relative;
+}
+
+.footer .footer-content {
+    border: 1px solid rgba(85, 168, 174, 0.1);
+    height: 15em;
+    display: flex;
+    padding-left: 5em;
+}
+.footer .footer-content h2 {
+    color: white;
+    
+}
+.footer .footer-section h5 {
+    padding-left: 2em;
+    
+}
+.footer .footer-content .footer-section {
+    flex: 1; 
+    padding: 2em;
+    font-size: 1em;
+    
+}
+.footer .footer-content .book span {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: .8em;
+    
+}
+.footer .footer-content .book .socials a {
+    width: 2.5em;
+    height: 2em;
+    padding-top: .5em;
+    margin-right: .5em;
+    text-align:center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: .5em;
+    
+}
+.footer .footer-content .book .socials a:hover {
+    border: 1px solid white;
+    color: antiquewhite;
+    
+}
+.footer .footer-content .care ul a {
+    display: block;
+    margin-bottom: .8em;
+    font-size: 1.2em;
+    list-style: none;
+    
+}
+.footer .footer-content .facilities ul a {
+    display: block;
+    margin-bottom: .8em;
+    font-size: 1.2em;
+    list-style: none;
+    
+}
+.footer .footer-content .care li  {
+    list-style: none;
+    
+}
+.footer .footer-content .facilities li  {
+    list-style: none;
+    
+}
+.logo-text{
+    margin-left: 1em;
+}
+
+.now {
+    margin-left: -1em;
+}
+.contact {
+    font-size: .83em;
+}
+
+.fa-facebook {
+    color: white;
+}
+.fa-instagram {
+    color: white;
+}
+.fa-twitter {
+    color: white;
+}
+.fa-linkedin {
+    color: white;
+}

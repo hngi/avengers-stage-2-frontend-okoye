@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+h1{
+    color: #55A8AE;
+}
+.roomequipments{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1px;
+    color: #4D4D4D;
+}
+.room-details{
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 0px;
+    color: #4D4D4D;
+}
+.fa-arrow-left.nav{
+    background: #E5E5E5;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    padding-top: 9px;
+    padding-left: 9px;
+}
+.fa-arrow-right.nav{
+    background: #E5E5E5;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    padding-top: 9px;
+    padding-left: 9px;
+}
+@media (max-width: 475px) { 
+    .roomequipments{
+        line-height: 20px;
+
+    }
+}
