@@ -13,6 +13,11 @@
 
 - [@ekiira](https://github.com/ekiira)
 
+- [@ratclad](https://github.com/ratclad)
 
+- [@kelwaffi](https://github.com/kelwaffi)
 
+- [@kelvin](https://github.com/kelvin)
+
+- [@Yinkash](https://github.com/Yinkash)
 
