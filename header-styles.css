@@ -1,0 +1,133 @@
+#home {
+    padding-top: 70px;
+  
+ }
+
+
+
+.hotel-navbar{
+    background-color:#55A8AE ;
+}
+
+.hotel-navbar .navbar-nav{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.hotel-navbar .nav-item{
+padding: 0% 0.8vw;
+}
+
+
+
+
+.hotel-navbar .nav-link{
+color: white;
+text-decoration: none;
+font-family: Montserrat;
+font-weight: bold;
+font-size: x-large;
+padding: 0% 0%;
+}
+.navbar-brand-image{
+ width:5.5vw;
+    }
+
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .carousel-caption h1{
+      
+    font-family: Montserrat;
+    font-weight: bolder;
+    padding-bottom: 7vw;
+    font-size: 5.5vw;
+}
+
+.carousel-caption button{
+    background-color: #55A8AE;
+    border: #55A8AE;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    margin-bottom: 7vw;
+    padding: 2.5%;
+    font-family: Montserrat;
+    border-radius: 3.5vw;
+
+}
+
+.hotel-carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    opacity:0.7
+}
+
+
+
+@media (max-width:900px){
+    .hotel-navbar .nav-link{
+     
+        font-weight: bold;
+        font-size: 2.2vw;
+       
+        }
+        .navbar-brand-image{
+ 
+            width:50px;
+            padding: 0%;
+             }
+
+         .carousel-caption h1{
+           
+            padding-bottom: 5vw;
+            font-size: 5.5vw;
+        }
+            
+}
+
+@media (max-width:572px){
+
+    .navbar-brand-image{
+ 
+   width:42px;
+   padding: 0%;
+    }
+
+    .hotel-navbar .nav-link{
+       
+        font-weight: bold;
+        font-size: 5vw;
+        padding: 0% 0%;
+     }
+     .hotel-navbar .nav-item{
+        padding: 0% 0vw;
+        }  
+    .carousel-caption h1{
+           
+            padding-bottom: 2.8vw;
+            font-size: 5.5vw;
+        }
+        
+    .carousel-caption button{
+              
+            font-size: 2.5vw;
+            font-weight: bolder;
+            margin-bottom: 2.8vw;
+            
+        
+     }
+    
+
+}

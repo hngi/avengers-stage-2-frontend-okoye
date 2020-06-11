@@ -1,0 +1,98 @@
+
+#facilities {
+    position: relative;
+    border-top: 88px solid transparent;
+    margin: -30px 0 0;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+ }
+ 
+ #facilities:before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    right: 0;
+    border-top: 0px solid #ccc;
+ }
+
+
+
+.facilities-page{
+    background: url("Resources/beige-concrete-building-3126553 1.png" );
+    opacity: 1;
+   max-height: 900px;
+    width: 100vw;
+    overflow: hidden;
+           
+}
+
+.facilities-header h1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-style: normal;
+    font-family: Montserrat;   
+    color: #55A8AE;
+
+    font-weight: bolder;
+    font-size: 4.4vw;
+    line-height: 4.9vw;    
+    padding-top: 1.5vw;
+
+    text-align: center;
+    padding: 3.5vw 0vw;
+}
+
+
+.facilities-page .facilities-blue-overlay{
+position: absolute;
+background: rgba(85, 168, 174, 0.4);
+object-fit: cover;
+}
+
+.facilities-page .facilities-image-row {
+    display: inline-flex;
+    
+    justify-content: space-evenly;
+ 
+    
+ 
+}
+
+.facilities-page .facilities-image-row .facilities-image{
+    display: grid;
+    align-content: space-between ;
+    justify-items: center;
+    align-items: baseline;
+    width: 30vw;
+    height: 23vw;
+    margin: 3vw 0vw;
+    
+    
+
+}
+.facilities-page .facilities-image h1{
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    font-weight: 600;
+    font-family: Montserrat;   
+}
+
+
+
+
+.facilities-page .facilities-image img{
+    width: 70%;
+    height: auto;
+}
+
+
+@media (max-width:600px){
+    .facilities-header h1{
+        font-size: 4.15vh;
+        line-height: 6.2vh; 
+        }
+}
