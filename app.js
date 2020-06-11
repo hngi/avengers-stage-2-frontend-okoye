@@ -1,3 +1,5 @@
+//Carousel and Hamburger menu logic
+
 const slider = document.querySelector('.slider');
 const leftArrow = document.querySelector('.left');
 const rightArrow = document.querySelector('.right');
