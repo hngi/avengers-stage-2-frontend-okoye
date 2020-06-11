@@ -7,3 +7,750 @@
 sans-serif;
 font-family: Lora,
 serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+.navbar {
+    background-color: #55A8AE;
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 2rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.navbar ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.navbar ul li a:hover {
+    color: #d4d4d4;
+}
+
+.hamburger {
+    width: 2rem;
+    height: 1.5rem;
+    z-index: 10;
+    margin-right: 2rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bar {
+    height: .2rem;
+    width: 100%;
+    background-color: #fff;
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 10vh;
+    background-color: #55A8AE;
+    height: 90vh;
+    width: 80vw;
+    transform: translateX(-100%);
+    transition: .3s .2s ease-in-out;
+    z-index: 10;
+}
+
+.mobile-menu ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mobile-menu ul li {
+    list-style: none;
+}
+
+.mobile-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.mobile-menu ul li a:hover {
+    color: #d4d4d4;
+}
+
+.mobile-menu-toggle {
+    transform: translateX(0);
+}
+
+.main-body {
+    position: relative;
+    top: 10vh;
+}
+
+/* Carousel */
+.carousel-container {
+    width: 100%;
+    height: 550px;
+    border: 1px solid #ccc;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 15vh;
+}
+
+.carousel-container .slider {
+    height: 100%;
+    display: flex;
+    width: 400%;
+    transition: all .3s;
+}
+
+.carousel-container .slider section {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-container .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-container .controls .arrow {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.carousel-container .arrow.left {
+    left: 1rem;
+}
+
+.carousel-container .arrow.right {
+    right: 1rem;
+}
+
+#content-one {
+    background-image: url(Resources/Unsplash-bed1.png);
+}
+
+#content-two {
+    background-image: url(Resources/bed-1.jpg);
+}
+
+#content-three {
+    background-image: url(Resources/bed-2.jpg);
+}
+
+#content-four {
+    background-image: url(Resources/bed-3.jpg);
+}
+#content-five {
+    background-image: url(Resources/Unsplash-bed1.png);
+}
+
+.carousel-container section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-container section div h1 {
+    font-size: 100px;
+    color: #fff;
+    line-height: 122px;
+    margin: 0 0 2rem 0;
+    text-align: center;
+}
+
+.carousel-container section div button {
+    width: 251px;
+    height: 80px;
+    background-color: #55A8AE;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 3rem;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.carousel-container .arrow {
+    width: 40px;
+    height: 40px;
+    background-color: #55A8AE;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-container .controls ul {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-container .controls ul li {
+    width: 14px;
+    height: 14px;
+    border: 2px solid #fff;
+    list-style: none;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.carousel-container .controls ul li.selected {
+    background: #fff;
+}
+
+.main-body {
+    position: relative;
+    top: 15vh;
+    width: 100vw;
+}
+
+.grey {
+    background-color: #f5f5f5;
+}
+
+.reservation {
+    width: 80%;
+    min-height: 15rem;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.reservation-header {
+    width: 100%;
+}
+
+.reservation-header h1 {
+    font-size: 2.5rem;
+    color: #55A8AE;
+    text-align: center;
+    margin-bottom: 1rem;
+    letter-spacing: .2rem;
+}
+
+.reservation-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.form-input {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+}
+
+.form-control {
+    padding: .3rem .5rem;
+}
+
+.form-control label {
+    display: block;
+    font-weight: 800;
+    margin-bottom: .3rem;
+    font-size: .9rem;
+}
+
+.form-control input {
+    padding: .3rem .1rem;
+    border: 1px solid transparent;
+    outline: none;
+    background-color: #fff;
+}
+
+.form-control select {
+    width: 5rem;
+    padding: .3rem 0;
+    border: 1px solid transparent;
+    outline: none;
+    background-color: #fff;
+}
+
+.btn {
+    width: 20%;
+    padding: .7rem 2rem;
+    border: 1px solid transparent;
+    outline: none;
+    background-color: #55A8AE;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.white {
+    background-color: #fff;
+}
+
+.rooms-rate {
+    height: 100vh;
+    width: 100%;
+}
+
+.room-rate-detail {
+    width: 100%;
+    height: 30%;
+    margin: 2rem 0;
+}
+
+.room-rate-detail h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #55A8AE;
+    letter-spacing: .2rem;
+}
+
+.room-rate-detail p {
+    width: 80vw;
+    text-align: center;
+    margin: 0 auto;
+    font-size: .9rem;
+}
+
+.room-image {
+    height: 60%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    width: 45%;
+}
+
+.image h6 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+span {
+    font-size: .8rem;
+}
+
+.price {
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.image img {
+    width: 100%;
+}
+
+.facility {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 1rem;
+    background-size: cover;
+}
+
+.facility h1 {
+    text-align: center;
+    color: #55A8AE;
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+    margin-bottom: 2rem;
+}
+
+.facility-menu {
+    background-image: url(Resources/facility.jpg);
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facility-menu ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    height: 80%;
+    margin: 0;
+    justify-items: center;
+    align-items: center;
+}
+
+.facility-menu ul li {
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 10rem;
+}
+
+.facility-menu ul li img {
+    width: 100%;
+}
+
+.testimony {
+    width: 80%;
+    min-height: 15rem;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimony h1 {
+    font-size: 2.5rem;
+    color: #55A8AE;
+    letter-spacing: .2rem;
+    margin-bottom: 1rem;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.user p {
+    width: 80vw;
+    text-align: center;
+}
+
+.contact {
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    padding: 1rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    width: 30%;
+    height: 20rem;
+    margin-right: 1rem;
+}
+
+.map img {
+    width: 100%;
+}
+
+.contact-form {
+    width: 30%;
+    height: 20rem;
+    background-color: #55A8AE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.contact-form input, .contact-form button, .contact-form textarea {
+    width: 80%;
+    padding: .5rem 0 .5rem .5rem;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.contact-form button {
+    color: #55A8AE;
+}
+
+.contact-form button:hover {
+    background-color: #55A8AE;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .hamburger {
+        display: flex;
+    }
+    .navbar ul {
+        display: none;
+    }
+    .reservation {
+        width: 95%;
+    }
+    .form-input {
+        width: 50%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .btn {
+        margin-right: 2rem;
+    }
+    .navbar {
+        width: 100vw;
+    }
+    .contact {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+    .map {
+        margin: 0;
+        width: 80vw;
+    }
+    .contact-form {
+        width: 80vw;
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 20rem;
+    background-color: #55A8AE;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.address {
+    display: flex;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.block {
+    width: 20rem;
+    height: 10rem;
+}
+
+.block h1 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.data {
+    display: flex;
+    margin-bottom: .5rem;
+    color: #fff;
+}
+.data img {
+    margin-right: .5rem;
+}
+
+.block ul li {
+    list-style: none;
+    color: #fff;
+    margin-bottom: .5rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .form-input {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .btn {
+        width: 40%;
+    }
+    .facility-menu ul li {
+        margin-left: -1rem;
+    }
+    .facility-menu ul li{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .room-image {
+        flex-direction: column;
+    }
+    .image {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .room-rate {
+        height: auto;
+        padding: 1rem 0;
+    }
+    .room-rate-detail {
+        height: auto;
+    }
+    .facility {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .form-input {
+        width: 60%;
+        grid-template-columns: 1fr;
+        margin-bottom: .5rem;
+    }
+    .form-control select, .form-control input {
+        width: 100%;
+    }
+    .reservation-form {
+        flex-direction: column;
+    }
+    .btn {
+        margin: 0;
+    }
+    .room-rate-detail p {
+        width: 300px;
+    }
+    .room-rate-detail h1 {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+}
+
+/* Responsiveness */
+@media screen and (max-width: 1250px) {
+    .carousel-container section div h1 {
+        font-size: 80px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .carousel-container section div h1 {
+        font-size: 70px;
+    }
+    .address {
+        flex-direction: column;
+    }
+    .footer {
+        height: auto;
+    }
+    .block {
+        width: 60%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .carousel-container section div h1 {
+        font-size: 60px;
+    }
+    .carousel-container section div h1 {
+        line-height: 70px;
+    }
+    .facility-menu ul {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 790px) {
+    .carousel-container section div h1 {
+        font-size: 50px;
+        margin-bottom: .5rem;
+    }
+    .facility {
+        height: auto;
+        padding: 1rem 0;
+    }
+    .facility-menu ul li {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .carousel-container .left, .carousel-container .right {
+        display: none;
+    }
+} 
+
+@media screen and (max-width: 350px) {
+    .facility-menu ul li {
+        font-size: 3rem;
+    }
+} 
