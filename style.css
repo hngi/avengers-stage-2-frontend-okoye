@@ -1,3 +1,4 @@
+HEAD
 /* Hex code of color used was  #55A8AE; */
 /* The Logo is hand drawn */
 /* All other resources should be downloaded on your own */
@@ -754,3 +755,565 @@ span {
         font-size: 3rem;
     }
 } 
+=======
+
+/* Hex code of color used was  #55A8AE; */
+/* The Logo is hand drawn */
+/* All other resources should be downloaded on your own */
+/* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+ */
+ /* font-family: Ubuntu,
+sans-serif;
+font-family: Lora,
+serif; */
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #55A8AE;
+    font-family: 'Ubuntu', sans-serif;
+}
+.testimonial{
+    background: white;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}.testimonial_main{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.testimonial_title{
+    color: #55A8AE;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4.15vw;
+    margin: 0.5em 0;
+    letter-spacing: ;
+}.testimonial img{
+    width: 8em;
+    border-radius: 50%;
+}.customer_name{
+    margin: 1em 0;
+    font-weight: bold;
+    font-style: italic;
+}.testimonial p{
+    font-size: 1.3vw;
+}.contact_us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(243, 243, 243);
+    align-items: center;
+}.contact_head{
+    color: #55A8AE;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:3.5vw;
+    width: 70%;
+    text-align: end;
+}.contactUs_main{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}.map{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}iframe{
+    width: 100%;
+    height: 100%;
+}.contact_form{
+    flex: 1;
+    background: #55A8AE;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}.contact_form > form{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+}input, textarea{
+    width: 95%;
+    height: 5em;
+    padding-left: 3em;
+    box-sizing: content-box;
+    font-weight: bold;
+    font-size: 1vw;
+    color: #55A8AE;
+    border-radius: .3em;
+    border: none;
+}input{
+    width: 97%;
+}
+.comments{
+    height: 10em;
+    padding: 1em;;
+}textarea{
+    width: 100%;
+    font-size: large;
+    color: #55A8AE;
+    box-sizing: inherit;
+}@media only screen and (max-width: 900px) {
+    .contactUs_main {
+      flex-direction: column-reverse;
+      margin: auto;
+      height: 100%;
+    }.map{
+        height: 50%;
+        margin: ;
+    }.contact_head{
+        text-align: center;
+        margin: .5em;
+    }.contact_form{
+        height: 50%;
+    }form{
+        margin: auto;
+    }input, textarea{
+        height: 2em;
+        width: 85%;
+        padding-left: 1em;
+        font-size: small;
+    }input{
+        width: 90%;
+    }.testimonial p{
+        font-size: 2vw;
+    }
+  }
+ @media only screen and (max-width: 320px) {
+    .contactUs_main {
+      flex-direction: column-reverse;
+      margin: auto;
+      height: 100%;
+    }.map{
+        height: 50%;
+        margin: ;
+    }.contact_head{
+        text-align: center;
+        margin: .5em;
+    }.contact_form{
+        height: 50%;
+    }form{
+        margin: auto;
+    }input, textarea{
+        height: 1.5em;
+        width: 85%;
+        padding-left: 1em;
+        font-size: small;
+        font-weight: lighter;
+    }input{
+        width:90%;
+    }.testimonial p{
+        font-size: 2vw;
+    }
+  } 
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/*  */
+
+/* FACILITIES */
+.facility-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url('Resources/hotel-build.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 80px 0;
+}
+
+/* dark overlay */
+.facility-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#offers h1,
+#testimony h1 {
+  font-size: 2.5rem;
+  color: #55a8ae;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.facility-container div {
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
+
+.facility-container .row-a,
+.facility-container .row-b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5,
+.row6 {
+  flex: 1;
+}
+
+/* TESTIMONIALS */
+.testimonials-container {
+  display: flex;
+  padding: 10px 20px 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.testimony {
+  width: 800px;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+  font-size: 1.2rem;
+}
+
+.testimony em {
+  font-weight: 300;
+}
+
+.testimony > img {
+  width: 100px;
+  height: 100px;
+  border: 0;
+  border-radius: 50%;
+}
+
+.testimonials-container .btn {
+  position: absolute;
+  bottom: 100%;
+  right: 15%;
+}
+
+.testimonials-container .btn button {
+  border: 1px solid #55a8ae;
+  border-radius: 4px;
+  margin: 0 3px;
+}
+
+@media (max-width: 500px) {
+  .facility-container {
+    padding: 0;
+  }
+
+  .facility-container div {
+    z-index: 3;
+  }
+
+  .facility-container .row-a,
+  .facility-container .row-b {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+/* Hex code of color used was  #55A8AE; */
+/* The Logo is hand drawn */
+/* All other resources should be downloaded on your own */
+/* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+ */
+ /* font-family: Ubuntu,
+sans-serif;
+font-family: Lora,
+serif; */
+body {
+  background-color: white;
+  margin: 0px;
+}
+h1{
+  padding: 20px;
+  color: #55A8AE;
+  text-align: center;
+  font-family: Ubuntu;
+}
+.section1{
+  background-color: ghostwhite;
+  padding: 0px;
+  margin: 0 0 auto;
+  font-weight: bold;
+}
+button{
+  background-color:#55A8AE;
+  color: #fff;
+  padding: 20px 20px white;
+  margin:0px 0px #55A8AE;
+  float: right;
+}
+h1 p {text-align: center;
+}
+#date{
+  background-color: white;
+  color: black;
+  
+}
+.images {
+  display:flex;
+  flex-direction: row;
+}
+#select-button{
+  background-color: white;
+  color: black;
+}
+p {
+  font-family:Sans-Serif;
+}
+
+/* Hex code of color used was  #55A8AE; */
+/* The Logo is hand drawn */
+/* All other resources should be downloaded on your own */
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import 'font.css';
+ /* font-family: Ubuntu,
+sans-serif;
+font-family: Lora,
+serif; */  
+
+.header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-container {
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    height: 550px;
+    border: 1px solid #ccc;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-container .slider {
+    height: 100%;
+    display: flex;
+    width: 400%;
+    transition: all .3s;
+}
+
+.carousel-container .slider section {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-container .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-container .controls .arrow {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.carousel-container .arrow.left {
+    left: 1rem;
+}
+
+.carousel-container .arrow.right {
+    right: 1rem;
+}
+
+#content-one {
+    background-image: url(Resources/Unsplash-bed1.png);
+}
+
+#content-two {
+    background-image: url(Resources/bed-1.jpg);
+}
+
+#content-three {
+    background-image: url(Resources/bed-2.jpg);
+}
+
+#content-four {
+    background-image: url(Resources/bed-3.jpg);
+}
+#content-five {
+    background-image: url(Resources/Unsplash-bed1.png);
+}
+
+.carousel-container section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-container section div h1 {
+    font-size: 100px;
+    color: #fff;
+    line-height: 122px;
+    margin: 0 0 2rem 0;
+    text-align: center;
+}
+
+.carousel-container section div button {
+    width: 251px;
+    height: 80px;
+    background-color: #55A8AE;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 3rem;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.carousel-container .arrow {
+    width: 40px;
+    height: 40px;
+    background-color: #55A8AE;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-container .controls ul {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-container .controls ul li {
+    width: 14px;
+    height: 14px;
+    border: 2px solid #fff;
+    list-style: none;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.carousel-container .controls ul li.selected {
+    background: #fff;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 1250px) {
+    .carousel-container section div h1 {
+        font-size: 80px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .carousel-container section div h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .carousel-container section div h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .carousel-container section div h1 {
+        font-size: 50px;
+        margin-bottom: .5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .carousel-container .left, .carousel-container .right {
+        display: none;
+    }
+} 
+
+/*== General ==*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+@import 'font.css';
+
+body{
+ font-family: "Ubuntu", "sans-serif";
+}
+
+
+/*== nav section ==*/
+.nav-bluish{
+	background: #55A8AE;
+	font-size: 18px;
+}
+
+.nav-logo-size{
+	height:60px;
+	width: 60px;
+}
+
+
+/*== Footer section ==*/
+.bluish{
+	background: #55A8AE;
+	font-size: 12px;
+}
+
+.logo-size{
+	height:60px;
+	width:100px;
+	padding-left:40px;
+}
+
+.padding-left{
+	margin-left:40px;
+}
+
+
+.no-bullet{
+	list-style-type: none;
+}
+
+i.icon-location, i.icon-phone, i.icon-mail {
+    padding-top: 5px;
+}
+
