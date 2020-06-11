@@ -1,4 +1,6 @@
 
+
+
 /* Hex code of color used was  #55A8AE; */
 /* The Logo is hand drawn */
 /* All other resources should be downloaded on your own */
@@ -99,7 +101,7 @@ img {
     bottom: 50px;
   }
 }
-=======
+
 /* Hex code of color used was  #55A8AE; */
 
 
@@ -193,7 +195,7 @@ html,body{
     padding: 5px 5px 5px 0px;
     text-align: center;
     width: 100%;
-=======
+
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
 * {
     --primary: #55A8AE;
@@ -262,14 +264,22 @@ body {
 .footer {
     background: var(--primary);
     color: white;
+
+    height: 400px;
+=======
     height: 300px;
+
     position: relative;
 }
 
 .footer .footer-bottom {
     background: var(--primary);
     color: white;
+
+    height: 50px;
+=======
     height: 30px;
+
     text-align: center;
     width: 100%;
     position: absolute;
@@ -279,7 +289,11 @@ body {
 }
 
 .footer .footer-content {
+
+    height: 350px;
+=======
     height: 250px;
+
     display: flex;
     margin: 5px;
 }
@@ -305,33 +319,60 @@ body {
 
 .footer .footer-content .connect .contact span {
     display: block;
+
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.footer .footer-content .connect .social span {
+=======
     font-size: 1.1rem;
     margin-bottom: 8px;
 }
 
 .footer .footer-content .connect .social a {
+
     border: 1px solid black;
     width: 30px;
     height: 20px;
     padding-top: 2px;
+
+    margin-right: 5px;
+=======
     margin-right: 3px;
+
     text-align: center;
     display: inline-block;
     font-size: 1rem;
     border-radius: 5px;
 }
 
+
+.footer .footer-content .connect .social span i {
+    height: 15px;
+}
+
+.footer .footer-content .connect .social span:hover {
+=======
 .footer .footer-content .connect .social a img {
     height: 15px;
 }
 
 .footer .footer-content .connect .social a:hover {
+
     border: 1px solid wheat;
     color: white;
 }
 
+
+.footer .footer-content .connect .contact span i {
+    height: 15px;
+    padding: 5px;
+    background: var(--primary);
+=======
 .footer .footer-content .connect .contact span img {
     height: 15px;
+
 }
 
 .footer .footer-content .care {
@@ -374,4 +415,41 @@ body {
     transition: all .3s;
 
 }
+
+.facilities {
+    background: white;
+    position: relative;
+    height: 700px;
+    color: var(--primary);
+    text-align: center;
+}
+
+.facility-box {
+    background: url(Resources/facility.jpg) no-repeat center center;
+    opacity: 0.5;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    color: white;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.facility-box .facility-icon span i {
+    color: white;
+    margin: 30px;
+    max-height: 120px;
+}
+
+.facility-box .facility-icon h3 {
+    font-size: 20px;
+    text-align: center;
+}
+=======
+
+}
+
 
