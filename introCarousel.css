@@ -1,0 +1,108 @@
+.carousel {
+    margin-bottom: 0rem;
+  }
+  .carousel-caption {
+    text-align: center;
+    z-index: 10;
+    margin-bottom: 10rem;
+  }
+  .carousel-item {
+    height: 100vh;
+    background-color: rgb(37, 37, 37);
+    padding: 0;
+  }  
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    
+    height: 100vh;
+  }
+  .carousel-container{
+      align-items: center;
+      justify-content: center;
+  }
+  .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #333;
+    border: .05rem solid #000;
+    margin-bottom: 4rem;
+  }
+  .first-carousel {
+    margin-bottom: 0rem;
+    width: 100%;
+  }
+.carousel-caption h1{
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #eee;
+    background: rgba(0, 0, 0, .4);
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.intro-btn {
+    background: rgb(11, 165, 236);
+    padding: .5rem 1.5rem .6rem 1.5rem;
+    border-radius: 1.7rem;
+    border: .05rem solid rgb(11, 165, 236);
+    transition: background .5s ease-in;
+}
+.intro-btn{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.intro-btn:hover{
+    background: rgb(11, 165, 236);
+    border: .05rem solid rgb(11, 165, 236);
+}
+@media(max-width:1085px){
+    .carousel-caption {
+        text-align: center;
+        z-index: 10;
+        margin-bottom: 8rem;
+    }
+    .carousel-caption h1{
+        font-size: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+@media(max-width:820px){
+    .carousel-caption {
+        text-align: center;
+        z-index: 10;
+        margin-bottom: 7rem;
+    }
+    .carousel-caption h1{
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    
+}
+@media(max-width:546px){
+    .carousel-caption {
+        text-align: center;
+        z-index: 10;
+        margin-bottom: 5rem;
+    }
+    .carousel-caption h1{
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+    }
+    
+}
+@media(max-width:380px){
+    .carousel-caption {
+        text-align: center;
+        z-index: 10;
+        margin-bottom: 8rem;
+    }
+    .carousel-caption h1{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    
+}
