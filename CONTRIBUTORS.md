@@ -1,4 +1,12 @@
 # Contributors
--  [@elcozy](https://github.com/elcozy)
+- [@elcozy](https://github.com/elcozy)
 
--  [@ifatoki](https://github.com/ifatoki)
+- [@ifatoki](https://github.com/ifatoki)
+
+- [@Praizerema]
+
+- [@DjangoGirl]
+
+- [@Neutrino]
+
+- [@Oluwaloni R]
