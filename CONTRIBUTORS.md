@@ -1,10 +1,12 @@
 # Contributors
--  [@elcozy](https://github.com/elcozy)
 
--  [@ifatoki](https://github.com/ifatoki)
+- [@elcozy](https://github.com/elcozy)
+
+- [@ifatoki](https://github.com/ifatoki)
 
 - [@Abiodun-Emmanuel](https://github.com/Abiodun-Emmanuel)
 
+<<<<<<< HEAD
 - [@blossom-babs](https://github.com/blossom-babs)
 
 - [@petrepan](https://github.com/petrepan)
@@ -100,3 +102,6 @@
 - [@dayang4321](https://github.com/dayang4321)
 
 - [@Kosiso29](https://github.com/Kosiso29)
+=======
+- [@adamuabu](https://github.com/withadamu)
+>>>>>>> 46fdc0a5d0052c224d9bc0723cd012b0431c90ee
