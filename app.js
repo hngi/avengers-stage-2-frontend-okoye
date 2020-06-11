@@ -16,7 +16,7 @@ document.querySelectorAll('.controls li').forEach((indicator, index)=>{
         sectionIndex = index;
         document.querySelector('.controls .selected').classList.remove('selected');
         indicator.classList.add('selected');
-        slider.style.transform = 'translateX(' + (sectionIndex) * -25 + '%)';
+        slider.style.transform = 'translateX(' + (sectionIndex) * -20 + '%)';
     });
 });
 
@@ -24,12 +24,12 @@ leftArrow.addEventListener('click', ()=>{
     sectionIndex = (sectionIndex > 0) ? sectionIndex - 1 : 0;
     document.querySelector('.controls .selected').classList.remove('selected');
     indicatorParent.children[sectionIndex].classList.add('selected');
-    slider.style.transform = 'translateX(' + (sectionIndex) * -25 + '%)';
+    slider.style.transform = 'translateX(' + (sectionIndex) * -20 + '%)';
 });
 
 rightArrow.addEventListener('click', ()=>{
-    sectionIndex = (sectionIndex < 3) ? sectionIndex + 1 : 3;
+    sectionIndex = (sectionIndex < 4) ? sectionIndex + 1 : 4;
     document.querySelector('.controls .selected').classList.remove('selected');
     indicatorParent.children[sectionIndex].classList.add('selected');
-    slider.style.transform = 'translateX(' + (sectionIndex) * -25 + '%)';
+    slider.style.transform = 'translateX(' + (sectionIndex) * -20 + '%)';
 });

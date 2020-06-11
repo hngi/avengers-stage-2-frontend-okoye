@@ -151,7 +151,7 @@ header {
 .carousel-container .slider {
     height: 100%;
     display: flex;
-    width: 400%;
+    width: 500%;
     transition: all .3s;
 }
 
@@ -753,10 +753,10 @@ span {
     .carousel-container .left, .carousel-container .right {
         display: none;
     }
-} 
+}
 
 @media screen and (max-width: 350px) {
     .facility-menu ul li {
         font-size: 3rem;
     }
-} 
+}
