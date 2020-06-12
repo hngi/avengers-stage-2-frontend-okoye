@@ -1,0 +1,93 @@
+/* Hex code of color used was  #55A8AE; */
+/* The Logo is hand drawn */
+/* All other resources should be downloaded on your own */
+/* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+ */
+ /* font-family: Ubuntu,
+sans-serif;
+font-family: Lora,
+serif; */
+
+/*Body*/
+body{
+    width:80%;
+    margin:auto;
+    font-family:Ubuntu, sans-serif ;
+    font-weight: bold;
+}
+
+/* TESTIMONIAL SECTION*/
+.container{
+    text-align: center;
+}
+.pie{
+    color:#55A8AE;
+    font-weight:bold;
+    font-size: 75px;
+}
+.top{
+    font-weight: lighter;
+    color:gray; 
+}
+
+img{
+    border-radius:70px;
+}
+
+
+i{
+    font-weight: lighter;
+}
+
+/*CONTACT US SECTION*/
+
+.control{
+    background-color:#55A8AE;
+    padding:50px;
+    width:37%;
+    border:0;
+    margin:0;
+    position: relative;
+    float:left;
+    height:250px;
+}
+
+
+.img{
+    border-radius:0;
+    width:45%;
+    border:0;
+    margin:0;
+    position: relative;
+    height: 351px;
+    float:left;
+    padding-left: 40px;
+}
+
+.cut{
+    color:#55A8AE;
+    padding-left: 550px;
+    padding-top: 20px;
+}
+
+input[type="text"], textarea{
+    width:85%;
+    padding:14px;
+    border:none;
+}
+
+button[type="submit"]{
+    width:91.2%;
+    padding:14px;
+    border:none;
+}
+button[type="submit"]:hover{
+    background-color:whitesmoke;
+    font-weight: bolder;
+    color:black;    
+}
+
+.class{
+    background-color:#C0C0C0;
+    height: 480px;
+}
