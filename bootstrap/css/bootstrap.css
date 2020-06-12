@@ -688,18 +688,20 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 .container-i-fluid {
-    opacity: 0.9;
+    opacity: 1;
     padding: 40px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     background-position: center;
-    background-image: url("/avengers-stage-2-frontend-okoye/image4.jpg");
+    background-image: url("https://www.commercialintegrator.com/wp-content/uploads/2019/04/VHSF-2-1200x650.jpg");
     width: 100%;
+    /* height: 100%; */
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
 }
 
 .container-fluid {
