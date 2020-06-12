@@ -1,0 +1,152 @@
+
+/* room and rates section css by dayang */
+
+#pricing {
+    position: relative;
+    border-top: 88px solid transparent;
+    margin: -30px 0 0;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+ }
+ 
+ #pricing:before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    right: 0;
+    border-top: 0px solid #ccc;
+ }
+
+
+
+
+.pricing{
+    width: 100%;
+    display: block;
+    }
+    
+    .pricing .room-rates-header{
+     
+    align-items: center;
+    height: 4.9vh;   
+    
+    }
+    
+    
+    
+    .pricing .room-rates-header h1{
+    
+        font-family: Montserrat;
+       
+        font-weight: bolder;
+        font-size: 4.4vw;
+        line-height: 4.9vw;    
+        color: #55A8AE;
+        text-align: center;
+        margin-bottom: 0;
+        padding-right: 0.1vw;
+    }
+    
+    .pricing .room-rates-header span {
+     display: flex;
+     justify-content: space-between;
+     padding: 0;
+     padding-right: 0.5vw;
+    }
+    
+    .pricing .header-arrow{
+      background-color:lightgray;
+      height: 3.7vw;
+      width: 3.7vw;
+      font-size: 15px;
+      border-radius: 100%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center; 
+      margin: 5px;
+    }
+    .pricing .header-arrow img{
+        height: 60%;
+        width: 60%;
+    }
+    
+    
+    .pricing .room-rates-intro {
+    
+    margin-top: 5vw ;
+    margin-bottom: 0;
+    height: 3%;
+    width:100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    
+    align-items: center;
+    text-align: center;
+    color: #4D4D4D;
+    margin-left: auto;
+    justify-content: center;
+    }
+    
+    
+    .pricing .room-rates-collection{
+        margin-top: 8vh;
+    justify-content: center;
+     margin-right: 0;
+     margin-left: 0;
+     margin-bottom: 5vh;
+    }
+    
+    
+    
+    .pricing .room-rates-view{
+        justify-content: center;
+    display: grid;
+    padding-bottom: 10px;
+    }
+    
+    .pricing .room-rates-view-text{
+        
+       margin-top: 2vw;
+        height: 87px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+        display: block;
+        align-items: center;
+        
+        color: #4D4D4D;
+    }
+
+    @media (max-width:600px){
+        .pricing .room-rates-header h1{
+            font-size: 4.15vh;
+            line-height: 6.2vh; 
+            }
+        .pricing .room-rates-intro {
+            margin-left: auto;
+            margin-right: auto;
+            }
+        .pricing .room-rates-view{
+           
+          
+            margin-right: auto;
+        }
+        .pricing .room-rates-view-text{
+            height:auto;
+            font-size: 5vw;
+            line-height: 5.9vw;
+        }
+        .pricing .header-arrow{
+           display: none;
+        }
+    
+    
+    }

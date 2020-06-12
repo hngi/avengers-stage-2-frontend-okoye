@@ -1,0 +1,68 @@
+.reservation-box {
+    background: #F5F5F5;
+    font-family: Montserrat;
+
+}
+
+.reservation-box .reservation-box-header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-style: normal;
+
+    color: #55A8AE;
+
+    font-weight: bolder;
+    font-size: 4.4vw;
+    line-height: 4.9vw;    
+    padding-top: 3vw;
+
+    text-align: center;
+
+}
+.reservation-box .reserve-form{
+    padding-bottom: 5vw;
+    padding-left: 3vw;
+    padding-top: 2vw;
+}
+
+.reservation-box .form-group label{
+font-weight: bolder;
+font-size: small;
+margin: 0 0 0.8vw;
+}
+
+.reserve-button{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.reserve-button button{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 25px;
+    max-height: 78px;
+    font-weight: bolder;
+    border-radius: 0;
+    font-family: Montserrat;
+    padding: 1vw 2vw;
+    background-color: #55A8AE;
+    
+
+}
+
+.reservation-box  div.form-group:not(.reserve-button){
+    margin: 0.4vw;
+}
+
+
+@media (max-width:600px){
+    .reservation-box .reservation-box-header{
+        font-size: 4.15vh;
+        line-height: 6.2vh; 
+        }
+  
+
+
+}

@@ -1,0 +1,88 @@
+#contact {
+    position: relative;
+    border-top: 88px solid transparent;
+    margin: -30px 0 0;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+ }
+ 
+ #contact:before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    right: 0;
+    border-top: 0px solid #ccc;
+ }
+
+
+
+.contact {
+    font-family: Montserrat;
+    background-color: #F1F2F2;
+}
+.contact-header{
+    justify-content: center;
+}
+.contact-header h1{
+font-style: normal;
+font-weight: 600;
+font-size: 4.4vw;
+line-height: 4.9vw;
+display: flex;
+align-items: center;
+
+color: #55A8AE;
+padding: 1vw 0;
+}
+.contact .contact-body{
+    justify-content: center;
+    padding-bottom: 6vw;
+}
+
+#map{
+  
+   max-height: 500px
+}
+
+
+
+.contact .contact-form{
+    background-color: #55A8AE;
+   
+}
+
+.contact .contact-form .form-group{
+    display: grid;
+    padding: 4vw 2vw;
+    justify-items: center;
+}
+.contact .contact-form .form-group .form-control{
+    margin: 1vw ;
+    
+}
+
+.contact .contact-form .form-group button{
+   
+    margin: 1vw 0;
+    align-self: center;
+    padding: 2vh 12vh;
+    font-size: 2.5vw;
+    color: black;
+    background-color: white;
+    border: white;
+
+}
+
+
+@media (max-width:600px){
+    .contact-header h1{
+        font-size: 4.15vh;
+        line-height: 6.2vh; 
+        }
+
+        .contact .contact-form .form-group button{
+            font-size: 20px;
+        }
+    }
