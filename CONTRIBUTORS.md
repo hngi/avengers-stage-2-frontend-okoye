@@ -35,7 +35,7 @@
 
 - [@Idss15](https://github.com/Idss15)
 
-- [@Berkel91](https://github.com/Berkel91)
+- [@Berkel97](https://github.com/Berkel91)
 
 - [@Apam-enlightenment](https://github.com/Apam-enlightenment)
 
@@ -89,7 +89,7 @@
 
 - [@franciscoder](https://github.com/franciscoder)
 
-- [@Ehize](https://github.com/Ehize
+- [@Ehize](https://github.com/Ehize)
 
 - [@ojolanre](https://github.com/ojolanre)
 
